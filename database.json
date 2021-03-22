@@ -1,0 +1,15 @@
+{
+    "cpus": [
+                {"name": "Ryzen 5 3600", "performance": 90, "price": 200, "brand": "r5"}, 
+                {"name": "Intel i7 7700K", "performance": 85, "price": 349, "brand": "i7"},
+                {"name": "Threadripper 2990WX", "performance": 70, "price": 1499, "brand": "tr"}
+            ],
+    "gpus": [
+                {"name": "Geforce Gtx 1070", "performance": 70, "price": 379, "brand": "gx"},
+                {"name": "Radeon Rx 480", "performance": 50, "price": 239, "brand": "rx"},
+                {"name": "Geforce Rtx 2060", "performance": 75, "price": 349, "brand": "rt"}
+            ],
+    "games": [
+                {"name": "Grand Theft Auto V", "storage": 200, "min": [70, 60, 8], "rec": [80, 70, 12]}
+            ]
+}

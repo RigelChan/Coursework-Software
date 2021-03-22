@@ -1,0 +1,31 @@
+GAME = [
+['Grand Theft Auto V', [CPU[0][0], GPU[0][1], 8], [CPU[1][0], GPU[0][1], 6], 200],
+['Space Engineers', SE_REC, SE_MIN, 10],
+['Elite Dangerous', ED_REC, ED_MIN, 35]
+]
+
+# Name, Reccommended Reqs, Min Reqs, Storage
+
+CPU = [
+['R5-3600', 90, '£200'], 
+['I7-7700K', 85, '£349'], 
+['TR-2990WX', 75, '£1499']
+]
+
+CPU_NAMES = {
+CPU[0][0]: "RYZEN 5 3600",
+CPU[1][0]: "INTEL I7 7700K,
+CPU[2][0]: "THREADRIPPER 2990WX"
+}
+
+GPU = [
+['GTX-1070', 70, '£379'],
+['RX-480', 50, '£239'],
+['RTX-2060', 75, '£349']
+]
+
+GPU_NAMES = {
+GPU[0][0]: "GEFORCE GTX 1070",
+GPU[1][0]: "RADEON RX 480"
+GPU[2][0]: "GEFORCE RTX 2060"
+}
