@@ -1070,7 +1070,7 @@ class Ui_MainWindow(object):  # Class definition for the main window.
 
         def AddGame():  # The function for adding a new game to the database.
             try:
-                # Here all of the inputs are captured, and typecasting is applied it necessary.
+                # Here all of the inputs are captured, and typecasting is applied if necessary.
                 AddGameName = self.GameEnter2.text()
                 AddGameStorage = int(self.StorageEnter2.text())
                 AddGameCPUMin = data['cpus'].get(self.GameAddCPUMin.currentText())
